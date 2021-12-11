@@ -4,8 +4,8 @@
     <div>
       <section>count: {{ $store.state.count }}</section>
       <section>
-        <button @click="increase">increase</button>
-        <button @click="decrease">decrease</button>
+        <el-button type="primary" @click="increase">increase</el-button>
+        <el-button type="danger" @click="decrease">decrease</el-button>
       </section>
     </div>
   </div>
